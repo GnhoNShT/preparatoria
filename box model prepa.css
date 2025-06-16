@@ -1,0 +1,645 @@
+p{
+    font-size: 20%;
+}
+a{
+    text-decoration: none;
+    font-size: 100%;
+    color: black;
+}
+.accesos{
+    font-size: 140%;
+    margin-top: 2px;
+}
+body{
+    background-color: rgb(235, 250, 255);
+    margin: 0;
+}
+#contactos{
+    background-color: blue;
+    display: flex;
+    height: 30px;
+}
+.caja-contactos{
+    width: 17%;
+    margin-right: 1%;
+}
+#caja-gmail{
+    width: 20%;
+    margin-left: 44%;
+}
+#Correo{
+    width: 9%;
+    height: auto;
+    vertical-align: middle;
+}
+#WhatsApp{
+    width:11%;
+    height: auto;
+    vertical-align: middle;
+    margin-left: 2%;
+}
+#phonecall{
+    width:11%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 50px;
+}
+#celular{
+    display: none;
+}
+/*celular*/
+.menu-flotante {
+    display: none;
+	top: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    float: left;
+}
+
+.boton-flotante {
+	background-color: #337ab7;
+	color: #fff;
+	padding: 8px 15px;
+    float: left;
+	border: none;
+	border-radius: 5px;
+	cursor:  pointer;
+    position: absolute;
+    width: 70px;
+    left:3px;
+    top: 8px;
+}
+
+.boton-flotante:hover {
+	background-color: #23527c;
+}
+
+.menu-desplegable {
+	display: none;
+	position: absolute;
+	background-color: #f0f0f0;
+	padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    right: 215px;
+    top: 25px;
+    text-align: left;
+}
+
+.menu-desplegable li {
+	display: block; 
+	margin-bottom: 10px;
+}
+
+.menu-desplegable a {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+.menu-desplegable a:hover {
+	color: #23527c;
+}
+
+.menu-flotante:hover .menu-desplegable {
+	display: block;
+}
+#celular img{
+    width :100%;
+    height: 130px;
+}
+
+#celular{
+    display: none;
+    height: 130px;
+    width: 100%;
+}
+.sc{
+    background-color:rgb(42, 195, 255);
+    margin-bottom:0;
+}
+#titulo{
+    text-align: center;
+    font-size: 215%;
+}
+#texto{
+    text-align: center;
+    font-size: 165%;
+}
+.text{
+    margin-right: 2.5%;    
+    color: black;
+    font-size: 130%;
+}
+.color{
+    margin-right: 3%;
+    color: black;
+}
+#LogoHome{
+    margin-left: 1%;
+    width: 7%;
+    height: 7%;
+    vertical-align: middle;
+}
+#cuerpo{
+    width: 90%;
+    justify-self: center;
+    justify-content: center;
+    padding: 3% 0 1% 0;
+    margin-bottom: 2%;
+    display: flex;
+}
+#cuadro-imagen{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 6%;
+}
+#imagen{
+    width: 100%;
+    border-radius: 10px;
+}
+#contenido{
+    background-color: #f8f8f8;
+    width: 40%;
+    margin-bottom: 1%;
+    height: 350px;
+    margin-top: 3%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#formulario{
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 85%;
+    justify-self: center;
+    margin-bottom: 3%;
+    display: flex;
+    border-radius: 25px;
+    padding: 1%;
+}
+#ftitulo{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 230%;
+    margin-top: 1%;
+}
+#cuadro-foto{
+    width: 60%;
+}
+#foto{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#cuadro-formulario{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 4%;
+}
+#form{
+    background-color: red;
+    border-radius: 20px;
+    width: 99%;
+    margin-right: 1%;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+#nombres{
+    margin-right: 6%;
+    width: 37%;
+    padding: 1% 0;
+    padding-left: 1%;
+}
+#apellidos{
+    width: 37%;
+    padding: 1% 0;
+    padding-left: 1%;
+}
+#correo{
+    margin-right: 6%;
+    width: 37%;
+    padding: 1% 0;
+    padding-left: 1% ;
+}
+#numero{
+    width: 37%;
+    padding: 1% 0;
+    padding-left: 1%;
+}
+#horas{
+    width: 85%;
+    padding: 1% 0;
+    padding-left: 1%;
+}
+#mensaje{
+    padding-top: 1%;
+    padding-left: 2%;
+    font-family: Arial, Helvetica, sans-serif ;
+    width: 61%; 
+    height: 120px;
+}
+#Enviar{
+    margin-bottom: 4%;
+}
+
+footer{
+    background-color: rgb(42, 195, 255);
+    box-shadow: 0 0 40px rgba(42, 74, 255, 0.685);
+    margin-top: 50px;
+}
+#f1{
+    width: 30%;
+    text-align: center;
+    height: 220px;
+    margin-left: 3%;
+    margin-right: 7%;
+}
+#f2{
+    text-align: center;
+    width: 20%;
+    height: 120px;
+    margin-top: 50px;
+}
+#f2 a{
+    font-size: 150%;
+}
+#f3{
+    width: 30%;
+    text-align: center;
+    height: 190px;
+    margin-left: 7%;
+}
+#f4{
+        display: none;
+        text-align: center;
+}
+#pie{
+    display: flex;
+}
+.fft{
+    background-color: rgb(255, 17, 17);
+    padding: 4px;
+}
+#fblogo{
+    width: 2%;
+    height: auto;
+    text-decoration: none;
+    vertical-align:middle ;
+    margin-left: 10%;
+}
+#iglogo{
+    width: 4%;
+    height: auto;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 55%;
+}
+.contenio{
+    font-size: 150%;
+    color: black;
+    text-decoration: underline;
+}
+.Contenio{
+    font-size: 175%;
+}
+
+@media(max-width: 1245px){
+    #contactos{
+        background-color: blue;
+        display: flex;
+        height: 35px;
+    }
+    .caja-contactos{
+        width: 27%;
+    }
+    #caja-gmail{
+        width: 35%;
+        margin-left: 28%;
+    }
+    #Correo{
+        width: 9%;
+        height: auto;
+        vertical-align: middle;
+    }
+    #WhatsApp{
+        width:11%;
+        height: auto;
+        vertical-align: middle;
+        margin-left: 2%;
+    }
+    #phonecall{
+        width:11%;
+        height: auto;
+        vertical-align: middle;
+        border-radius: 50px;
+    }
+    #nosotros{
+        font-size: 95%;
+    }
+    #cuadro-imagen{
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #formulario{
+        width: 90%;
+    }
+    #cuadro-formulario{
+        width: 50%;
+        display: inline;
+        margin-top: 4%;
+    }
+    #cuadro-foto{
+        width: 50%;
+        margin-top: 12.5%;
+    }
+    #foto{
+        width: 100%;
+        height: auto;
+    }
+    #form{
+        width: 90%;
+        margin-left: 0;
+        margin-bottom: 40px;
+        justify-self: center;
+    }
+    footer{
+        padding: 0%;
+        background-color: rgb(42, 195, 255);
+    }
+    #f1{
+        width: 30%;
+        margin-right: 2%;
+        margin-left: 3%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1%;
+        height: 11%;
+    }
+    #separador{
+        margin-bottom: 30px;
+    }
+    #f1 br{
+        display: none;
+    }
+    #f1 h2{
+        font-size:170% ;
+    }
+    #f1 a{
+        font-size: 130%;
+    }
+    #f2{
+        width: 30%;
+        height: 30%;
+        margin-top: 7%;
+    }
+    #f2 a{
+        font-size: 170%;
+    }
+    #f3{
+        margin-left: 2%;
+    }
+    #iglogo{
+        width: 9%;
+        height: auto;
+        margin-left: 35%;
+    }
+    #fblogo{
+        width: 4%;
+        height: auto;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 1023px) {
+    #contactos{
+        background-color: blue;
+        display: flex;
+        height: 35px;
+    }
+    .caja-contactos{
+        width: 27%;
+        margin-right: 1%;
+    }
+    #caja-gmail{
+        width: 35%;
+        margin-left: 8%;
+    }
+    #Correo{
+        width: 12%;
+        height: auto;
+        vertical-align: middle;
+    }
+    #WhatsApp{
+        width:15%;
+        height: auto;
+        vertical-align: middle;
+        margin-left: 2%;
+    }
+    #phonecall{
+        width:15%;
+        height: auto;
+        vertical-align: middle;
+        border-radius: 50px;
+    }
+    #nosotros{
+        font-size: 95%;
+    }
+    #cuadro-imagen{
+        margin-left: 0%;
+        margin-top: 15%;
+    }
+    #contenido{
+        width: 60%;
+        height: auto;
+    }
+    #formulario{
+        width: 70%;
+    }
+    #cuadro-formulario{
+        width: 100%;
+        display: inline;
+    }
+    #cuadro-foto{
+        display: none;
+    }
+    #form{
+        width: 90%;
+        margin-left: 0;
+        margin-bottom: 40px;
+        justify-self: center;
+    }
+            footer{
+        padding: 0%;
+        background-color: rgb(42, 195, 255);
+    }
+    #f1{
+        width: 30%;
+        margin-right: 2%;
+        margin-left: 3%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1%;
+        height: 11%;
+    }
+    #separador{
+        margin-bottom: 30px;
+    }
+    #f1 br{
+        display: none;
+    }
+    #f1 h2{
+        font-size:170% ;
+    }
+    #f1 a{
+        font-size: 130%;
+    }
+    #f2{
+        width: 30%;
+        height: 30%;
+        margin-top: 7%;
+    }
+    #f2 a{
+        font-size: 170%;
+    }
+    #f3{
+        margin-left: 2%;
+    }
+        #iglogo{
+        width: 9%;
+        height: auto;
+        margin-left: 35%;
+    }
+    #fblogo{
+        width: 4%;
+        height: auto;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 767px){
+    #contactos{
+        display: none;
+    }
+    #ordenador{
+        display: none;
+    }
+    #celular{
+        display: block;
+    }
+    .menu-flotante {
+        display: block;
+        float: right;
+        margin-top:26px;
+        margin-right: 1%;
+    }
+    #cuadro-imagen{
+        display: none;
+    }
+    #cuerpo{
+        justify-content: center;
+    }
+    #contenido{
+        width: 90%;
+        padding-left: 2%;
+        padding-right: 2%;
+        height: auto;
+    }
+    #foto-celular-up-form{
+        display: block;
+        width: 95%;
+        justify-self: center;
+        margin-bottom: 6%;
+        margin-top: 5%;
+    }
+    #cuadro-foto{
+        display: none;
+    }
+    #formulario{
+        width: 85%;
+        justify-content: center;
+    }
+    #cuadro-formulario{
+        width: 95%;
+        justify-content: center;
+        margin: 0;
+    }
+    #form{
+        width: 100%;
+    }
+    footer{
+        padding: 0%;
+        background-color: rgb(42, 195, 255);
+    }
+    #pie{
+        margin-bottom: 20px;
+        height: 150px;
+    }
+    #f1{
+        width: 45%;
+        margin-right: 4%;
+        margin-left: 3%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+        height: 140px;
+    }
+    #separador{
+        margin-bottom: 10px;
+    }
+    #f1 br{
+        display: none;
+    }
+    #f1 h2{
+        font-size:150% ;
+    }
+    #f1 a{
+        font-size: 120%;
+    }
+    #f2{
+        width: 45%;
+        height: 30%;
+        margin-top: 20px;
+    }
+    #f2 a{
+        font-size: 150%;
+    }
+    #f3{
+        display: none;
+    }
+    #f4{
+        display: block;
+        justify-self: center;
+        background-color: blue;
+        padding-top: 1px;
+        width: 100%;
+        height: 85px;
+    }
+    #f4 h2{
+        font-size: 20px;
+        margin:10px;
+    }
+    #iglogo{
+        width: 11%;
+        margin-left: 8%;
+        margin-right: 0;
+    }
+    #fblogo{
+        width: 6%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .fft{
+        text-align: center;
+        padding: 0;
+    }
+    .fft a{
+        font-size: 80%;
+    }
+}

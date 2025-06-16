@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Preparatoria/ITECOS</title>
+        <link rel="stylesheet" href="box model prepa.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    </head>
+    <body>
+        <header class="sc"> <!--encabezado-->
+            <div id="celular">
+                <img id="foto-celular-cuadro" src="../imagenes/baner-home2.jpeg" alt="presentacion">
+                <div id="phone">
+                    <nav class="menu-flotante">
+                        <button class="boton-flotante">Menú</button>
+                        <ul class="menu-desplegable">
+                            <li><a href="../index.html">Inicio</a></li>
+                            <li><a href="../licenciatura/Licenciatura.html">licenciatura</a></li>
+                            <li><a href="../quienes somos/Quienes somos.html">Acerca de nosotros</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+            </div>
+            <div><!--contactos-->
+                <div id="contactos">
+                    <div class="caja-contactos">
+                        <a class="text">
+                            <img id="WhatsApp" src="../imagenes/WhatsApp.svg.webp" alt="whatsapp" >
+                            +52 999 112 9572
+                        </a>
+                    </div>
+                    <div class="caja-contactos">
+                        <a class="text" >
+                            <img id="phonecall" src="../imagenes/phonecall.png" alt="Telefonico">
+                            +52 999 923 1167
+                        </a>
+                    </div>
+                    <div class="caja-contactos" id="caja-gmail">
+                        <a class="text" href="mailto:itecosescuela@gmail.com">
+                            <img id="Correo" src="../imagenes/gmail.webp" alt="Correo">
+                            itecosescuela@gmail.com 
+                        </a>
+                    </div> 
+                </div>
+            </div>
+            <div id="ordenador"><!--accesos-->
+                <p class=" accesos">
+                    <a class="color" href="../index.html">
+                        <img id="LogoHome" src="../imagenes/Logo2.PNG" alt="Pagina Principal">
+                        <a class="color" href="../index.html">Inicio</a>
+                        <a class="color" href="../preparatoria/Preparatoria.html">Preparatoria</a>
+                        <a class="color" href="../licenciatura/Licenciatura.html">Administracion de empresas</a>
+                        <a class="color" id="nosotros" href="../quienes somos/Quienes Somos.html">¿Quienes somos?</a>
+                    </a>
+                </p>
+            </div>
+        </header>
+        <div> <!--contenido-->
+            <div id="cuerpo">
+                <div id="cuadro-imagen">
+                    <img src="../imagenes/seccion prepa.jpeg" alt="imagenes" id="imagen">
+                </div>
+                <div id="contenido">
+                    <h2 id="titulo">
+                        Preparatoria
+                    </h2>
+                    <p id="texto">
+                        En ITECOS terminarás tu prepa en dos años con certificado incluido, brindamos apoyo al trabajador y al que lo necesite. contamos con becas para los más aplicados, calidad estudiantil y buen ambiente estudiantil impartiendo clases los Lunes a Jueves y Sábados o Domingos
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="../imagenes/prepa-form.jpeg" alt="" id="foto-celular-up-form">
+            </div>
+            <div id="formulario"><!--formulario-->
+                <div id="cuadro-formulario">
+                    <form id="form">
+                        <h2 id="ftitulo">
+                            Solicita información (Preparatoria)
+                        </h2>
+                        <!-- Campo de texto -->
+                        <label for="nombres"></label>
+                        <input type="text" class="form" id="nombres" name="nombres" placeholder="Nombres" required minlength="5">
+                        <label for="apellidos"></label>
+                        <input type="text" class="form" id="apellidos" name="apellidos" placeholder="Apellidos" required minlength="5"><br><br>
+        
+                        <!-- Campo de datos -->
+                        <label for="correo"></label>
+                        <input type="email" class="form" id="correo" name="correo" placeholder="Correo electronico" required >
+                        <label for="Número telefónico"></label>
+                        <input type="number" class="form" id="numero" name="numero"placeholder="Numero telefonico" required><br><br>
+        
+                        <!-- Campo de selección -->
+                        <label for="nivel"></label>
+                        <select class="form" id="horas" name="horas" required>
+                        <option value="L-J">Lunes a Jueves</option>
+                        <option value="S">Sabados</option>
+                        <option value="D">Domingo</option>
+                        </select><br><br>
+
+                        <!--Caja de comentario-->
+                        <label for="mensaje"></label>
+                        <textarea name="mensaje" id="mensaje" rows="5%"placeholder="Mensaje"></textarea><br><br>
+                    
+                        <!-- Botón de submit -->
+                        <input type="submit" value="Enviar" id="Enviar">
+                    </form>
+                </div>
+                <div id="cuadro-foto">
+                    <img src="../imagenes/prepa-form.jpeg" alt="foto" id="foto">
+                </div>
+            </div>
+        </div>
+        <footer><!--pie de pagina-->
+            <div>
+                <div id="pie">
+                    <div id="f1">
+                        <h2 class="Contenio">
+                            Niveles academicos
+                        </h2><br>
+                        <a class="contenio" id="separador" href="../preparatoria/preparatoria.html">Preparatoria</a> <br><br>
+                        <a class="contenio" href="../licenciatura/licenciatura.html">Licenciatura</a>
+                    </div>
+                    <div id="f2">
+                        <a href="../quienes somos/Quienes Somos.html"><strong>Mas sobre nosotros<br> y<br> nuestros valores</a></strong>
+                    </div>
+                    <div id="f3">
+                        <h2 class="Contenio">
+                            Ven y visitanos en
+                        </h2><br>
+                        <a class="contenio" href="https://maps.app.goo.gl/SQZQDEgr6F3nYaj88">  
+                            C. 57 455, Parque de la Mejorada, Centro, 97000 Mérida, Yuc
+                        </a><br><br>
+
+                    </div>
+                </div>
+                <div id="f4">
+                <h2>
+                    Ven y visitanos en
+                </h2>
+                <a href="https://maps.app.goo.gl/SQZQDEgr6F3nYaj88" >C. 57 455, Parque de la Mejorada, Centro, 97000 Mérida, Yuc</a><br><br>
+                </a>
+            </div>
+                <div class="fft">
+                    <a href="https://m.facebook.com/EscuelaSuperiorItecos/">
+                        <img id="fblogo" src="../imagenes/FBlogo.png" alt="foto FB" target="_blank">
+                        Nuestro Facebook
+                    </a>
+                    <a href="https://www.instagram.com/itecosescuela?igsh=MW55MHNzYXZlejRndw==">
+                        <img  id="iglogo" src="../imagenes/Ig logo.png" alt="foto IG"target="_blank">
+                        Nuestro Instagram
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
